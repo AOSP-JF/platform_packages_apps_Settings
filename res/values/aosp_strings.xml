@@ -143,5 +143,7 @@
     <string name="lockscreen_wallpaper_clear_summary">Reset lock screen wallpaper</string>
     <string name="reset_lockscreen_wallpaper">Lockscreen wallpaper reset</string>
     
+    <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
+    <string name="security_patch">Android security patch level</string>
 </resources>
  
