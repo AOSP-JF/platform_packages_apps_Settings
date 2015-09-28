@@ -14,25 +14,133 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Change Log strings -->
-  <string name="changelog_title">Changelog</string>
-  <string name="changelog_summary">AOSP 5.1.1 changelog</string>
-  <string name="changelog_loading">Laad changelog\u2026</string>
-  <string name="changelog_error">Niet mogelijk changelog te laden</string>
-  <!-- Dashboard -->
-  <string name="custom_settings_title">AOSP Instellingen</string>
-  <!-- Power menu -->
-  <string name="power_menu_summary">Aanpassen power menu opties</string>
-  <!-- Battery Options -->
-  <string name="battery_title">Batterij Opties</string>
-  <string name="battery_summary">Wijzig de stijl van het batterij-icoon op de statusbar</string>
-  <!-- STweaks -->
-  <string name="stweaks_title">STweaks</string>
-  <string name="stweaks_summary">Wijzig Alucard kernel configuratie</string>
-  <!-- LayersManager -->
-  <string name="layers_title">Layers Manager</string>
-  <string name="layers_summary">BitSyko App om RRO thema\'s in te stellen</string>
-  <!-- SuperSU -->
-  <string name="supersu_title">SuperSU</string>
-  <string name="supersu_summary">Superuser App door ChainFire</string>
+    <!-- Change Log strings -->
+    <string name="changelog_title">Wijzigingenlogboek</string>
+    <string name="changelog_summary">AOSP 5.1.1 wijzigingenlogboek</string>
+    <string name="changelog_loading">Wijzigingenlogboek wordt geladen\u2026</string>
+    <string name="changelog_error">Kan het wijzigingenlogboek niet laden</string>
+    
+    <!-- Dashboard -->
+    <string name="custom_settings_title">AOSP Instellingen</string>    
+    
+    <!-- Power menu -->
+    <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_summary">Power menu opties aanpassen</string>
+    <string name="power_menu_reboot_title">Herstart menu</string>
+    <string name="power_menu_screenshot_title">Schermafdruk</string>
+    <string name="power_menu_airplane_title">Vliegtuigmodus</string>
+    <string name="power_menu_users_title">Wissel gebruiker</string>
+    <string name="power_menu_settings_title">Instellingen snelkoppeling</string>
+    <string name="power_menu_lockdown_title">Apparaatvergrendeling</string>
+    <string name="power_menu_bug_report_title">Foutrapportage</string>
+    <string name="power_menu_sound_title">Geluidspaneel</string>
+    <string name="power_menu_bug_report_disabled">Foutrapportage is uitgeschakeld in de ontwikkelaarsinstellingen</string>
+    
+    <!-- Recent apps -->
+    <string name="recent_app_title">Recente apps</string>
+    <string name="recent_app_summary">Verschillende opties voor het recente apps scherm</string>
+    <string name="show_clear_all_recents_button_title">Wis alles knop</string>
+    <string name="show_clear_all_recents_button_summary">Toon de Wis alles knop</string>
+    <string name="recents_clear_all_location_title">Locatie van de Wis alles knop</string>
+    <string name="recents_clear_all_location_top_right">Rechtsboven</string>
+    <string name="recents_clear_all_location_top_left">Linksboven</string>
+    <string name="recents_clear_all_location_top_center">Midden boven</string>
+    <string name="recents_clear_all_location_bottom_right">Rechtsonder</string>
+    <string name="recents_clear_all_location_bottom_left">Linksonder</string>
+    <string name="recents_clear_all_location_bottom_center">Midden onder</string>
+    <string name="recents_searchbar_title">Zoekbalk</string>
+    <string name="recents_searchbar_summary">Toon de Google zoekbalk in het recente apps scherm</string>
+    <string name="recents_clear_all_dismiss_all_title">Wis alle taken</string>
+    <string name="recents_clear_all_dismiss_all_summary">Wis alle taken inclusief voorgrond taken</string>
+
+    <!-- Battery Options -->
+    <string name="battery_title">Batterij opties</string>
+    <string name="battery_summary">Wijzig de batterij icoon op de statusbar</string>
+    <string name="status_bar_battery_style_title">Batterij status stijl</string>
+    <string name="status_bar_battery_style_icon_portrait">Staand icoon</string>
+    <string name="status_bar_battery_style_icon_landscape">Liggend icoon</string>
+    <string name="status_bar_battery_style_circle">Cirkel</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Verborgen</string>
+    <string name="status_bar_battery_percentage_title">Toon het batterij percentage</string>
+    <string name="status_bar_battery_percentage_default">Verborgen</string>
+    <string name="status_bar_battery_percentage_text_inside">In de icoon</string>
+    <string name="status_bar_battery_percentage_text_next">Naast de icoon</string>
+
+    <!-- STweaks -->
+    <string name="stweaks_title">STweaks</string>
+    <string name="stweaks_summary">Wijzig de Alucard kernel configuratie</string>
+    
+    <!-- LayersManager -->
+    <string name="layers_title">Layers Manager</string>
+    <string name="layers_summary">BitSyko app om RRO thema\'s in te stellen</string>
+    
+    <!-- SuperSU -->
+    <string name="supersu_title">SuperSU</string>
+    <string name="supersu_summary">Superuser app van ChainFire</string>
+    
+    <!-- Notification drawer -->
+    <string name="notification_drawer_title">Notificatiebalk</string>
+    <string name="notification_drawer_summary">Beheer positie en aantal tegels</string>
+    <string name="qs_category_title">Snelle instellingen</string>
+    <string name="qs_order_title">Selecteer en rangschik tegels</string>
+    <string name="add_qs">Voeg nieuwe tegel toe</string>
+    <string name="qs_action_delete">Verwijder</string>
+    <string name="qs_action_add">Voeg toe</string>
+    <string name="qs_action_no_more_tiles">Geen tegels meer beschikbaar</string>
+    <string name="qs_tile_wifi">Wi\u2011Fi</string>
+    <string name="qs_tile_bluetooth">Bluetooth</string>
+    <string name="qs_tile_display_inversion">Kleur omkering</string>
+    <string name="qs_tile_cellular_data">Dataverbinding</string>
+    <string name="qs_tile_airplane_mode">Vliegtuigmodus</string>
+    <string name="qs_tile_display_rotation">Schermrotatie</string>
+    <string name="qs_tile_flashlight">Zaklamp</string>
+    <string name="qs_tile_location">Locatie</string>
+    <string name="qs_tile_cast_screen">Scherm casten</string>
+    <string name="qs_tile_hotspot">Hotspot</string>
+    <string name="qs_main_tiles_title">Vergroot de eerste rij</string>
+    <string name="qs_main_tiles_summary_on">Twee hoofd tegels op de eerste rij</string>
+    <string name="qs_main_tiles_summary_off">Drie tegels op elke rij</string>
+    <string name="qs_advanced_location_title">Uitgebreide locatie instellingen</string>
+    <string name="qs_advanced_location_summary">Activeer uitgebreide locatie instellingen in Snelle instellingen</string>
+
+    <!-- Key backlight -->
+    <string name="button_backlight_title">Achtergrondverlichting</string>
+    <string name="button_backlight_enabled">Verlicht de knoppen</string>
+    <string name="button_backlight_seekbar_title">Helderheid knoppen</string>
+    <string name="backlight_timeout_title">Verlichting timeout</string>
+    <string name="backlight_timeout_unlimited">Schakel niet uit</string>
+    <string name="backlight_summary_disabled">Uitgeschakeld</string>
+    <string name="backlight_summary_enabled_with_timeout">Ingeschakeld gedurende <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Ingeschakeld</string>
+    <string name="settings_reset_button">Stel opnieuw in</string>
+
+    <!-- Bluetooth accept all Filestypes -->
+    <string name="bluetooth_accept_all_files">Accepteer alle bestandtypes</string>
+    
+    <!-- Expandable notifications -->
+    <string name="notification_force_expand_title">Forceer uitgebreide notificaties</string>
+    <string name="notification_force_expand_summary">Automatisch uitgebreide notificaties voor apps die het ondersteunen</string>
+
+    <!-- Gesture shortcuts -->
+    <string name="gesture_settings_title">Gebaren</string>
+    <string name="gesture_settings_summary">Gebruik gebaren voor acties</string>
+    
+    <!-- JDCTeam Google+ Community shortcut -->
+    <string name="community">JDCTeam op Google+</string>
+    <string name="community_summary">Word lid van onze officiële community en blijf op de hoogte van de beste software voor jouw apparaat</string>
+    
+    <!-- Remove notification sound during music play -->
+    <string name="interruptions_ignore_while_media_title">Voorkom geluidsdemping</string>
+    <string name="interruptions_ignore_while_media_summary">Verminder het afspeelvolume niet als een notificatie wordt ontvangen</string>
+    
+    <!-- Lockscreen Wallpaper -->
+    <string name="lockscreen_wallpaper_title">Vergrendelscherm achtergrond</string>
+    <string name="lockscreen_wallpaper_summary">Pas vergrendelscherm achtergrond aan</string>
+    <string name="lockscreen_wallpaper_set_title">Stel achtergrond in</string>
+    <string name="lockscreen_wallpaper_set_summary">Stel vergrendelscherm achtergrond in</string>
+    <string name="lockscreen_wallpaper_clear_title">Stel achtergrond opnieuw in</string>
+    <string name="lockscreen_wallpaper_clear_summary">Stel vergrendelscherm achtergrond opnieuw in</string>
+    <string name="reset_lockscreen_wallpaper">Vergrendelscherm achtergrond opnieuw instellen</string>
+    
 </resources>
