@@ -145,5 +145,8 @@
     
     <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
     <string name="security_patch">Android security patch level</string>
+    
+    <!-- ToolBox -->
+    <string name="toolbox_title">JDCTeam Toolbox</string>
 </resources>
  

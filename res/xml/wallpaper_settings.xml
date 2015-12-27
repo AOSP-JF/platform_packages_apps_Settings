@@ -17,4 +17,10 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/wallpaper_settings_fragment_title">
 
+<!-- Lockscreen Wallpaper -->
+    <PreferenceScreen
+        android:fragment="com.android.settings.aosp.LockScreenSettings"
+        android:key="lockscreen_general_category"
+        android:title="@string/lockscreen_wallpaper_title" />
+
 </PreferenceScreen>
